@@ -23,10 +23,10 @@ RUN echo "%sudo   ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers && \
 WORKDIR /home/steam
 USER steam
 
-ENV am_ark_SessionName="Ark Server" \
+ENV am_ark_SessionName="GodEmperorDoges Riddick Server" \
     am_serverMap="TheIsland" \
-    am_ark_ServerAdminPassword="k3yb04rdc4t" \
-    am_ark_MaxPlayers=70 \
+    am_ark_ServerAdminPassword="VinDiesel" \
+    am_ark_MaxPlayers=10 \
     am_ark_QueryPort=27015 \
     am_ark_Port=7778 \
     am_ark_RCONPort=32330 \
